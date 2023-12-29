@@ -1,0 +1,91 @@
+.task-form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: var(--white-color);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.task-form-container:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.task-form-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--dark-purple-color);
+}
+
+.task-form-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: var(--dark-purple-color);
+}
+
+.task-form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid var(--input-border-color);
+  border-radius: 4px;
+  font-size: 14px;
+  color: var(--black-color);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.task-form-input:focus {
+  outline: none;
+  border-color: var(--light-purple-color);
+}
+
+.task-form-textarea {
+  width: 100%;
+  min-height: 100px;
+  max-height: 200px;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid var(--input-border-color);
+  border-radius: 4px;
+  font-size: 14px;
+  color: var(--black-color);
+  resize: vertical;
+  transition: border-color 0.3s ease-in-out;
+  resize: none;
+}
+
+.task-form-textarea:focus {
+  outline: none;
+  border-color: var(--light-purple-color);
+}
+
+.task-form-input,
+.task-form-textarea {
+  box-sizing: border-box;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-bottom: 20px;
+}
+
+.task-form-button {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--form-button-color);
+  color: var(--white-color);
+  border: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.task-form-button:hover {
+  background-color: var(--form-button-hover-color);
+  color: var(--white-color);
+}

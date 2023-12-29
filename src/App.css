@@ -1,0 +1,47 @@
+/* App.css */
+:root {
+  --dark-purple-color: #392467;
+  --light-purple-color: #5d3587;
+  --text-color: #ffd1e3;
+  --white-color: #fff;
+  --black-color: #000;
+  --button-color: #43aa8b;
+  --button-hover-color: #c82333;
+  --button-text-color: #fff;
+  --form-button-hover-color: #800080;
+  --form-button-color: #4b0082;
+  --input-border-color: #ccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes rotateAndBounce {
+  0% {
+    transform: rotate(0deg) translateY(0);
+  }
+  25% {
+    transform: rotate(5deg) translateY(-5px);
+  }
+  50% {
+    transform: rotate(0deg) translateY(0);
+  }
+  75% {
+    transform: rotate(-5deg) translateY(-5px);
+  }
+  100% {
+    transform: rotate(0deg) translateY(0);
+  }
+}
